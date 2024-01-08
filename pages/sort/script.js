@@ -37,7 +37,7 @@ function sort() {
     added_opt.innerHTML = "Добавлены не давно"
     filter_p.innerHTML = "Фильтры"
 
-    filter_img.src = "/public/filter.png"
+    filter_img.src = "/filter.png"
 
 
     // selected.id = "sort";

@@ -107,8 +107,8 @@ export function goods_products(arr, box) {
         credit.innerHTML = loan_per_month + " 00 сум/мес"
 
 
-        heart_position_img.src = "/public/love.png"
-        shop_box_img.src = "/public/shopping-cart 1.png"
+        heart_position_img.src = "/love.png"
+        shop_box_img.src = "/shopping-cart 1.png"
         poster_img_box_img.src = item.media[0]
 
 

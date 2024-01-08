@@ -126,12 +126,12 @@ function one_var() {
     addres_a.href = "#"
 
 
-    apple_item_img.src = "/public/apple-logo_32.png"
-    google_play_item_img.src = "/public/google-play_32.png"
-    networks_img_INST.src = "/public/instagram.png"
-    networks_img_TG.src = "/public/telegram.png"
-    networks_img_YOU.src = "/public/youtube.png"
-    networks_img_FC.src = "/public/facebook.png"
+    apple_item_img.src = "/apple-logo_32.png"
+    google_play_item_img.src = "/google-play_32.png"
+    networks_img_INST.src = "/instagram.png"
+    networks_img_TG.src = "/telegram.png"
+    networks_img_YOU.src = "/youtube.png"
+    networks_img_FC.src = "/facebook.png"
 
     footer.append(one_variant)
     one_variant.append(about_us_container, for_users_contner, for_entrepreneurs_contner, application_box, down)
@@ -308,18 +308,18 @@ function two_var() {
     defoult_height_three_a_2.href = "#"
 
 
-    about_us_container_two_V_img.src = "/public/next.png"
-    for_users_contner_two_V_img.src = "/public/next.png"
-    for_entrepreneurs_contner_two_V_img.src = "/public/next.png"
-    apple_box_img.src = "/public/apple-logo_white.png"
-    google_box_img.src = "/public/google-play_32.png"
-    ins_tg_box_img_INST.src = "/public/instagram.png"
-    ins_tg_box_img_TG.src = "/public/telegram.png"
-    you_fc_img_YOU.src = "/public/youtube.png"
-    you_fc_img_FC.src = "/public/facebook.png"
+    about_us_container_two_V_img.src = "/next.png"
+    for_users_contner_two_V_img.src = "/next.png"
+    for_entrepreneurs_contner_two_V_img.src = "/next.png"
+    apple_box_img.src = "/apple-logo_white.png"
+    google_box_img.src = "/google-play_32.png"
+    ins_tg_box_img_INST.src = "/instagram.png"
+    ins_tg_box_img_TG.src = "/telegram.png"
+    you_fc_img_YOU.src = "/youtube.png"
+    you_fc_img_FC.src = "/facebook.png"
 
-    clone_arrow_one.src = "/public/clone-arrow.png"
-    clone_arrow_two.src = "/public/clone-arrow.png"
+    clone_arrow_one.src = "/clone-arrow.png"
+    clone_arrow_two.src = "/clone-arrow.png"
 
 
     footer.append(two_variant)

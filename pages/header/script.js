@@ -60,11 +60,11 @@ function headers_1() {
     bascet_box_p.classList.add('p')
 
 
-    uzum_icon_img.src = `/public/uzum_img.svg`
-    search_icons_img.src = "/public/search.svg"
-    enter_box_img.src = "/public/user.svg"
-    favorite_box_img.src = "/public/favorite.svg"
-    bascet_box_img.src = "/public/basket.svg"
+    uzum_icon_img.src = `/uzum_img.svg`
+    search_icons_img.src = "/search.svg"
+    enter_box_img.src = "/user.svg"
+    favorite_box_img.src = "/favorite.svg"
+    bascet_box_img.src = "/basket.svg"
 
     catalog_cont.innerHTML = "Каталог"
     enter_box_p.innerHTML = "Войти"
@@ -141,13 +141,13 @@ function headers_2() {
     bascet_box_quantity_number.classList.add('quantity_number')
     input.classList.add('inp_search')
 
-    burger_and_uzum_icon_cont_img.src = "/public/burger_menu.svg"
-    input.style.backgroundImage = '/public/search_gray.png'
+    burger_and_uzum_icon_cont_img.src = "/burger_menu.svg"
+    input.style.backgroundImage = '/search_gray.png'
 
     input.placeholder = 'Искать товары'
-    enter_box_img.src = "/public/user.svg"
-    favorite_box_img.src = "/public/favorite.svg"
-    bascet_box_img.src = "/public/basket.svg"
+    enter_box_img.src = "/user.svg"
+    favorite_box_img.src = "/favorite.svg"
+    bascet_box_img.src = "/basket.svg"
 
 
     favorite_box_quantity_number.innerHTML = "2"
@@ -222,8 +222,8 @@ function hot_hrefs() {
     more_a.innerHTML = "Ещё"
 
 
-    halal_sale_img.src = "/public/halal.png"
-    more_img.src = "/public/arrow to down.png"
+    halal_sale_img.src = "/halal.png"
+    more_img.src = "/arrow to down.png"
 
     body_4.append(halal_sale, electrician, appliances, cloth, shoes, accessories, beauty, household_products, more_box)
     halal_sale.append(halal_sale_img, halal_sale_img_h2)

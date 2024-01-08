@@ -147,8 +147,8 @@ function reload(arr) {
     promotion.innerHTML = "32000 сум";
     price_flex_cont_p.innerHTML = price_replace + " 00 сум";
 
-    heart_position_img.src = "/public/love.png";
-    shop_box_img.src = "/public/shopping-cart 1.png";
+    heart_position_img.src = "/love.png";
+    shop_box_img.src = "/shopping-cart 1.png";
     poster_img_box_img.src = item.media[0];
 
     aside_case.append(goods_main_box);
