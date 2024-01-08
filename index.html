@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/public/apple-touch-icon.png"
+    />
+    <link rel="shortcut icon" href="/public/favicon.ico" type="image/png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="stylesheet" href="style.scss" />
+    <link rel="stylesheet" href="./pages/header/style.scss" />
+    <link rel="stylesheet" href="/pages/footer/style.scss" />
+    <link rel="stylesheet" href="/modules" />
+  </head>
+
+  <style></style>
+
+  <body>
+    <div class="container">
+      <div class="body_2"></div>
+      <div class="body_3"></div>
+      <div class="hot_hrefs"></div>
+
+      <swiper-container
+        class="mySwiper"
+        pagination="true"
+        pagination-clickable="true"
+        navigation="true"
+        space-between="30"
+        centered-slides="true"
+        autoplay-delay="2500"
+        autoplay-disable-on-interaction="false"
+      >
+        <swiper-slide> <img src="/public/one_s.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="/public/two_s.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="/public/three_s.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="/public/for_s.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="/public/five_s.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="/public/six_s.jpg" alt="" /></swiper-slide>
+        <swiper-slide> <img src="/public/seven_s.jpg" alt="" /></swiper-slide>
+      </swiper-container>
+
+      <div class="createBlock_container"></div>
+
+      <footer></footer>
+    </div>
+
+    <script type="module" src="/pages/goods/script.js"></script>
+    <script type="module" src="./pages/header/script.js"></script>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/pages/footer/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
