@@ -1,10 +1,10 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 import { getData } from './modules/http';
+import { goods_products, createBlock } from './pages/goods/script';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
-import { goods_products, createBlock } from './pages/goods/script';
 
 new Swiper('.mySwiper', {
     modules: [Navigation, Pagination],
